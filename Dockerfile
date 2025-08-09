@@ -5,7 +5,7 @@ WORKDIR /app
 COPY requirements.txt ./
 COPY chainlit.md ./
 COPY main.py ./
-COPY .env ./
+
 
 RUN pip install --no-cache-dir -r requirements.txt
 
